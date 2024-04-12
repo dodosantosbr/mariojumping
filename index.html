@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mario Jumping 🏃‍♂️</title>
+</head>
+
+<body>
+
+    <div class="game">
+        <img class="mario" src="./imagens/mario.gif" alt="mario">
+        <img class="pipe" src="./imagens/pipe.png" alt="cano">
+        <img class="clouds" src="./imagens/clouds.png" alt="nuvem">
+        <button class="start" onclick="startGame()">Iniciar</button>
+    </div>
+
+    <div class="game-over">
+        <h1>💀 Game Over 💀</h1><button onclick="restartGame()">Reiniciar</button>
+    </div>
+</body>
+
+<footer><div class="score">score: <span class="score--value">00</span></div></footer>
+<script src="./js/script.js"></script>
+
+</html>
