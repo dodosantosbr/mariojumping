@@ -107,7 +107,7 @@ button:hover {
 }
 
 .pipe-animation {
-    animation: pipe-animation 2s infinite linear;
+    animation: pipe-animation 1.3s infinite linear;
 }
 
 @keyframes pipe-animation {
@@ -121,7 +121,7 @@ button:hover {
 }
 
 .jump {
-    animation: jump 800ms ease-out;
+    animation: jump 600ms ease-out;
 }
 
 @keyframes jump {
