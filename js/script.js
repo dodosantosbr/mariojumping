@@ -47,7 +47,7 @@ const jump = () => {
 
   setTimeout(() => {
     mario.classList.remove('jump', incrementScore())
-  }, 800)
+  }, 600)
 }
 
 const loop = () => {
